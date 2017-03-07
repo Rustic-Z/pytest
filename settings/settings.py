@@ -6,4 +6,6 @@ class Settings():
         # 屏幕高度
         self.screen_height = 800
         # 背景色
-        self.bg_color = (230, 230, 230)
+        self.bg_color = (0, 128, 128)
+        # 飞船移动速度
+        self.ship_speed_factor = 3
