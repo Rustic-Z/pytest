@@ -7,5 +7,8 @@ class Settings():
         self.screen_height = 800
         # 背景色
         self.bg_color = (0, 128, 128)
+        self.white = (255, 255, 255)
+        self.green = (0, 255, 0)
+        self.blue = (0, 0, 128)
         # 飞船移动速度
         self.ship_speed_factor = 3
