@@ -10,7 +10,7 @@ def run_game():
     pygame.display.set_caption("打飞机")
 
     ai_settings = Settings()
-    screen = pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height))
+    screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
     # 创建飞船对象
     ship = Ship(ai_settings, screen)
     # 创建外星人对象
